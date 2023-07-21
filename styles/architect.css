@@ -12,9 +12,11 @@ font-family: 'Work Sans', sans-serif;
     
     border-radius: 8px;
 background: #FF900E;
-width: 180px;
-height: 64px;
-margin-top: 10px;
+padding: 20px 25px;
+color: #FFF;
+font-size: 1.25rem;
+cursor: pointer;
+border: 0;
 
   }
 
@@ -66,3 +68,32 @@ margin-top: 10px;
   .banner-desc{
     color: #727272;
   }
+
+.banner img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* responsive styles */
+/* mobile screen */
+ @media screen and (max-width:576px) {
+   header{
+    padding: 20px;
+   }
+
+   nav{
+    flex-direction: column ;
+   }
+  
+ }
+
+ /* tablet screen */
+ @media screen and (min-width:576px) and (max-width:960px) {
+  header{
+    padding: 50px;
+   }
+  nav{
+    flex-direction: column;
+  }
+  
+ }
